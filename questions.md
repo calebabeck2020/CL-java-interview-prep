@@ -1,51 +1,118 @@
 ### Java Basics:
-1. What is Java?
-2. Differentiate JDK, JRE & JVM?
+1. What is Java? (!!)
+- Java is a high level OOP language that compiles code into machine language before execution
+  
+2. Differentiate JDK, JRE & JVM? (!!!)
+- Java Development Kit, Java Runtime Environment, and Java Virtual Machine
+
 3. Differentiate Method Override vs Overload?
+- Method Overriding is when you take an existing method and give it different functionality, Method Overloading is when you make multiple versions of a method that can take alternately typed parameters
+
 4. What pillar of OOP is method overriding & overloading?
+- Polymorphism, since they are transformative functions
+
 5. What are Constructors? Do we need to define them?
-6. How does Java Memory work?
-33. ArrayList vs LinkedList?
+- Constructors are a blueprint for objects that define their initial state and does NOT need to be defined (when left undefined, the no-args constructor is used instead)
+
+6. How does Java Memory work? (!!!)
+- Stack and Heap and Garbage Collection
+
+33. ArrayList vs LinkedList? (!!!)
+- I DONT REMEMBER!!!
+
 34. Final vs finally vs finalize?
-35. What is an Exception’s parent class?
+- Final is a Class Type that
+
+35. What is an Exception’s parent class? (!)
+- I DONT REMEMBER!!!
+
 36. How can you handle exceptions in Java?
-7.  Differentiate between Abstract class & interface?
-8.  What was introduced during Java 8?
-9.  What are Generics in Java?
-29. Why Strings in Java are Comparator and Comparable?
-30. Difference between collections & streams
-31. Difference between Linked List & Array List
-32. Can entity classes be marked as final?
+- Encase the risky code that could throw an exception in a try-catch block and catch either specific exceptions and/or a general exception
+
+7.  Differentiate between Abstract class & interface? (!!)
+- An abstract class is used as a blueprint to create other classes that use its functionality but in varying ways, whereas an interface is used to do something else idk
+
+8.  What was introduced during Java 8? (!)
+- Java 8 introduced Collections, and more
+
+9.  What are Generics in Java? (!!)
+- Generics are used in the place of a determined data/object type in an interface or abstract class
+
+29. Why Strings in Java are Comparator and Comparable? (!!)
+- I DONT REMEMBER
+
+30. Difference between collections & streams (!!)
+- A collection is an object that stores a collection of data, whereas a Stream can take a collection of data in a mutable form and can be modified easily
+
+32. Can entity classes be marked as final? (!!!)
+- I DONT REMEMBER!!!
+
 33. Is “finally” guaranteed to run?
-34. Can you override a private or static method in Java?
-35. Why Strings in Java are immutable?
-36. What Java JIT compiler is?
-37. What is abstraction?
-38. What is Polymorphism?
-39. What is a logger?
-40. What kind of exceptions can I expect to see thrown when comparing strings?
+- Yes, even if an exception is thrown in the "try" block, the exception will be caught and then the "finally" block will run
+
+34. Can you override a private or static method in Java? (!!)
+- I don't think so?
+
+35. Why Strings in Java are immutable? (!!)
+- Strings are immutable because it is
+
+36. What Java JIT compiler is? (!!!)
+- I DONT REMEMBER!!!
+
+37. What is abstraction? (!!)
+- I need a refresher
+
+38. What is Polymorphism? (!!)
+- I need a refresher
+
+39. What is a logger? (!)
+- A logger is an object (or aspect) that is used to log actions/events that occur during runtime of an application
+
+40. What kind of exceptions can I expect to see thrown when comparing strings? (!)
+- NullPointerException when comparing to a null object and maybe more?
+
 41. Differentiate .compareTo() & .equals()?
-42. Difference between collections & streams?
+- .compareTo() compares the data content of variables, but .equals() compares the data addresses of variables
+
 43. Difference between Linked List & Array List?
+
 44. Can entity classes be marked as final?
+
 45. Is “finally” guaranteed to run?
+
 46. Can you override a private or static method in Java?
+
 47. What are java exceptions?
+
 48. Can you change a final variable?
+
 49. What would be returned from a static variable?
+
 50. What is method overriding and method overloading?
+
 51. What is a constructor?
+
 52. What is the collection API?
+
 53. Do you understand Java Threads?
+
 54. Describe the difference between a set and a list?
+
 55. When would it be best to use an ArrayList or a List?
+
 56. What Java version are you using?
+
 57. What is the difference between versions 8 and 11?
+
 58. What is the difference between Strings and StringBuffer?
+
 59. What is a StringBuilder?
+
 
 ### SQL:
 9. What is HQL?
+- Hibernate Query Language is a more powerful query language that abstracts the process of communicating SQL commands to a database through Hibernate
+
 13. What is SQL?
 14. Differentiate between Delete, Drop, & Truncate.
 15. In SQL, what is Normalization?
@@ -63,7 +130,8 @@
 1. What is Hibernate?
 2. What is an ORM?
 3. Describe hibernate ORM?
-4. How do you use Criteria API? What is it?
+4. How do you use Criteria API? What is it? (!)
+- Creating methods with queries rather than using HQL (it is now JPA Criteria)
 
 ### General Development Questions:
 1.  How did you get here?
@@ -124,3 +192,6 @@
 27. What is the purpose of Spring?
 28. What are the benefits of using Spring?
 29. What is @SpringBootApplication annotation
+
+
+https://revature0-my.sharepoint.com/:v:/g/personal/charles_jester_revature_com/EU239qgPa79Itl154iRBwNIBW5hpwDwELXIJ8PvkWRApiQ
