@@ -20,7 +20,7 @@
 33. ArrayList vs LinkedList? (!!!)
 - I DONT REMEMBER!!!
 
-34. Final vs finally vs finalize?
+34. Final vs finally vs finalize? (!)
 - Final is a Class Type that
 
 35. What is an Exception’s parent class? (!)
@@ -74,40 +74,39 @@
 41. Differentiate .compareTo() & .equals()?
 - .compareTo() compares the data content of variables, but .equals() compares the data addresses of variables
 
-43. Difference between Linked List & Array List?
+44. Can entity classes be marked as final? (!!!)
+- I don't recall what entity classes are
 
-44. Can entity classes be marked as final?
-
-45. Is “finally” guaranteed to run?
-
-46. Can you override a private or static method in Java?
-
-47. What are java exceptions?
+47. What are java exceptions? (!)
+- exceptions are errors that are thrown during compilation or runtime when a method or function fails to compile or run
 
 48. Can you change a final variable?
+- no, they are immutable - once assigned, they cannot be modified
 
-49. What would be returned from a static variable?
-
-50. What is method overriding and method overloading?
-
-51. What is a constructor?
+49. What would be returned from a static variable? (!!!)
+- receiving that variable from another class without need to instantiate the object into memory
 
 52. What is the collection API?
+- The Collection API provides 
 
 53. Do you understand Java Threads?
+- 
 
 54. Describe the difference between a set and a list?
+- A set is a disorganized collection of data whereas a list is generally an organized collection of data
 
 55. When would it be best to use an ArrayList or a List?
 
 56. What Java version are you using?
 
 57. What is the difference between versions 8 and 11?
+- Version 11 introduced a new garbage collection and a new HTTP client
 
 58. What is the difference between Strings and StringBuffer?
+- Strings are immutable objects whereas StringBuffers 
 
-59. What is a StringBuilder?
-
+59. What is a StringBuilder? (!)
+- Stringbuilder is an object that is used to take immutable Strings and perform transformations on them
 
 ### SQL:
 9. What is HQL?
