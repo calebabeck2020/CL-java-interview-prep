@@ -17,97 +17,97 @@
 6. How does Java Memory work? (!!!)
 - Stack and Heap and Garbage Collection
 
-33. ArrayList vs LinkedList? (!!!)
+7. ArrayList vs LinkedList? (!!!)
 - I DONT REMEMBER!!!
 
-34. Final vs finally vs finalize? (!)
+8. Final vs finally vs finalize? (!)
 - Final is a Class Type that
 
-35. What is an Exception’s parent class? (!)
+9. What is an Exception’s parent class? (!!!)
 - I DONT REMEMBER!!!
 
-36. How can you handle exceptions in Java?
+10. How can you handle exceptions in Java?
 - Encase the risky code that could throw an exception in a try-catch block and catch either specific exceptions and/or a general exception
 
-7.  Differentiate between Abstract class & interface? (!!)
+11.  Differentiate between Abstract class & interface? (!!)
 - An abstract class is used as a blueprint to create other classes that use its functionality but in varying ways, whereas an interface is used to do something else idk
 
-8.  What was introduced during Java 8? (!)
+12.  What was introduced during Java 8? (!)
 - Java 8 introduced Collections, and more
 
-9.  What are Generics in Java? (!!)
+13.  What are Generics in Java? (!!)
 - Generics are used in the place of a determined data/object type in an interface or abstract class
 
-29. Why Strings in Java are Comparator and Comparable? (!!)
+14. Why Strings in Java are Comparator and Comparable? (!!!)
 - I DONT REMEMBER
 
-30. Difference between collections & streams (!!)
+15. Difference between collections & streams (!!)
 - A collection is an object that stores a collection of data, whereas a Stream can take a collection of data in a mutable form and can be modified easily
 
-32. Can entity classes be marked as final? (!!!)
+16. Can entity classes be marked as final? (!!!)
 - I DONT REMEMBER!!!
 
-33. Is “finally” guaranteed to run?
+17. Is “finally” guaranteed to run?
 - Yes, even if an exception is thrown in the "try" block, the exception will be caught and then the "finally" block will run
 
-34. Can you override a private or static method in Java? (!!)
+18. Can you override a private or static method in Java? (!!)
 - I don't think so?
 
-35. Why Strings in Java are immutable? (!!)
+19. Why Strings in Java are immutable? (!!)
 - Strings are immutable because it is
 
-36. What Java JIT compiler is? (!!!)
+20. What Java JIT compiler is? (!!!)
 - I DONT REMEMBER!!!
 
-37. What is abstraction? (!!)
+21. What is abstraction? (!!)
 - I need a refresher
 
-38. What is Polymorphism? (!!)
+22. What is Polymorphism? (!!)
 - I need a refresher
 
-39. What is a logger? (!)
+23. What is a logger? (!)
 - A logger is an object (or aspect) that is used to log actions/events that occur during runtime of an application
 
-40. What kind of exceptions can I expect to see thrown when comparing strings? (!)
+24. What kind of exceptions can I expect to see thrown when comparing strings? (!)
 - NullPointerException when comparing to a null object and maybe more?
 
-41. Differentiate .compareTo() & .equals()?
+25. Differentiate .compareTo() & .equals()?
 - .compareTo() compares the data content of variables, but .equals() compares the data addresses of variables
 
-44. Can entity classes be marked as final? (!!!)
+26. Can entity classes be marked as final? (!!!)
 - I don't recall what entity classes are
 
-47. What are java exceptions? (!)
+27. What are java exceptions? (!)
 - exceptions are errors that are thrown during compilation or runtime when a method or function fails to compile or run
 
-48. Can you change a final variable?
+28. Can you change a final variable?
 - no, they are immutable - once assigned, they cannot be modified
 
-49. What would be returned from a static variable? (!!!)
+29. What would be returned from a static variable? (!!!)
 - receiving that variable from another class without need to instantiate the object into memory
 
-52. What is the collection API? (!!)
+30. What is the collection API? (!!)
 - The Collection API provides multiple interfaces that can be used to store collections of data in various flexible ways.
 
-53. Do you understand Java Threads? (!!!)
-- A thread is 
+31. Do you understand Java Threads? (!!!)
+- Any processes performed on a computer is performed on a Thread, and a Java Thread is simply referring to a thread used for Java functions
 
-54. Describe the difference between a set and a list? (!)
+32. Describe the difference between a set and a list? (!)
 - A set is a disorganized collection of data whereas a list is generally an organized collection of data
 
-55. When would it be best to use an ArrayList or a List?
+33. When would it be best to use an ArrayList or a List?
 - It is best to use an ArrayList or a List when you need an ordered collection of data that can be easily sorted
 
-56. What Java version are you using?
+34. What Java version are you using?
 - I have been using Java 8
 
-57. What is the difference between versions 8 and 11? (!)
+35. What is the difference between versions 8 and 11? (!)
 - Version 11 introduced a new garbage collection and a new HTTP client
 
-58. What is the difference between Strings and StringBuffer? (!!)
+36. What is the difference between Strings and StringBuffer? (!!)
 - Strings are immutable objects whereas StringBuffers are mutable objects that take Strings for the purpose of performing transformations on them
 
-59. What is a StringBuilder? (!!)
+37. What is a StringBuilder? (!!)
 - Stringbuilder is an object that is used to take immutable Strings and perform transformations on them
 
 ### SQL:
@@ -115,22 +115,36 @@
 - Hibernate Query Language is a more powerful query language that abstracts the process of communicating SQL commands to a database through Hibernate
 
 13. What is SQL?
+
 14. Differentiate between Delete, Drop, & Truncate.
+
 15. In SQL, what is Normalization?
+
 16. What are the normalized forms & which do we strive to achieve?
+
 17. In SQL, what are Queries?
+
 18. Differentiate between Truncate vs Drop?
+
 19. How do you retrieve a substring from a table?
+
 20. What is a Self-Join?
+
 21. What is SQL Transaction?
+
 22. What are the SQL relations?
+
 23. What is a Primary key?
+
 24. What SQL Databases have you used?
 
 ### HIbernate:
 1. What is Hibernate?
+
 2. What is an ORM?
+
 3. Describe hibernate ORM?
+
 4. How do you use Criteria API? What is it? (!)
 - Creating methods with queries rather than using HQL (it is now JPA Criteria)
 
@@ -167,32 +181,58 @@
 35. What is jasmine and how did you use it?
 
 ### Spring Framework:
-1.  What is Spring MVC?
+1.  What is Spring MVC? (!!)
+- Spring MVC is a Model, View, Controller 
+
 2.  What are profiles in Spring?
+
 3.  What is Spring Boot?
+
 4.  What is Spring Data JPA?
+
 5.  How can you handle exceptions in Spring?
+
 6.  How can you configure the port in spring? What's the default?
+
 10. What are components of Angular?
+
 11. When do we use Angular services?
+
 12. Differentiate String, StringBuffer & StringBuilder?
+
 13. What are Threads?
+
 14. What is a ConcurrentHashMap?
+
 15. What IoC (inversion of control) is?
+
 16. What Spring boot is?
+
 17. What is @EnableConfiguration?
+
 18. How did you connect Spring JPA?
+
 19. What is dependency injection?
+
 20. Features of Spring boot?
+
 21. List some Spring boot annotations? Explain what two of them do for us.
+
 22. Type of dependency injection in Spring boot?
+
 23. What are microservices?
+
 24. What are some annotations you used in Hibernate?
+
 25. What are some annotations you used in Spring Boot?
+
 26. What Spring Annotations do you know?
+
 27. What is the purpose of Spring?
+
 28. What are the benefits of using Spring?
+
 29. What is @SpringBootApplication annotation
 
 
-https://revature0-my.sharepoint.com/:v:/g/personal/charles_jester_revature_com/EU239qgPa79Itl154iRBwNIBW5hpwDwELXIJ8PvkWRApiQ
+https://revature0-my.sharepoint.com/:v:/g/personal/charles_jester_revature_com/EU239qgPa79Itl154iRBwNIBW5hpwDwELXIJ8PvkWRApi
