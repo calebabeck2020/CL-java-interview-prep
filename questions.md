@@ -86,26 +86,28 @@
 49. What would be returned from a static variable? (!!!)
 - receiving that variable from another class without need to instantiate the object into memory
 
-52. What is the collection API?
-- The Collection API provides 
+52. What is the collection API? (!!)
+- The Collection API provides multiple interfaces that can be used to store collections of data in various flexible ways.
 
-53. Do you understand Java Threads?
-- 
+53. Do you understand Java Threads? (!!!)
+- A thread is 
 
-54. Describe the difference between a set and a list?
+54. Describe the difference between a set and a list? (!)
 - A set is a disorganized collection of data whereas a list is generally an organized collection of data
 
 55. When would it be best to use an ArrayList or a List?
+- It is best to use an ArrayList or a List when you need an ordered collection of data that can be easily sorted
 
 56. What Java version are you using?
+- I have been using Java 8
 
-57. What is the difference between versions 8 and 11?
+57. What is the difference between versions 8 and 11? (!)
 - Version 11 introduced a new garbage collection and a new HTTP client
 
-58. What is the difference between Strings and StringBuffer?
-- Strings are immutable objects whereas StringBuffers 
+58. What is the difference between Strings and StringBuffer? (!!)
+- Strings are immutable objects whereas StringBuffers are mutable objects that take Strings for the purpose of performing transformations on them
 
-59. What is a StringBuilder? (!)
+59. What is a StringBuilder? (!!)
 - Stringbuilder is an object that is used to take immutable Strings and perform transformations on them
 
 ### SQL:
